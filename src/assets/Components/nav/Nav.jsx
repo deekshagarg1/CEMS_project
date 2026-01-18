@@ -12,7 +12,7 @@ function Nav(){
     <strong>CEMS</strong>
 </div>
 <div className="nav-right">
-    <Link to='/'><p>Home</p></Link>
+    <Link to='/'><p>Home1</p></Link>
     <Link to='/event'><p>Events</p></Link>
     <Link to='/about'><p>About</p></Link>
     <Link to='/contact'><p>Contact</p></Link>

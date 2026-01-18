@@ -9,7 +9,7 @@ function Footer(){
 <div className="footer-top">
     <div className="footer-top-right">
       <div className="f-logo">
-          <img src="https://ams.mitsgwalior.in/images/mits.png" alt="" /><h3>CEMS</h3>
+          <img src="/photos/mits_logo.png"  alt="" /><h3>CEMS</h3>
       </div>
         <br />
         <p>Streamline your campus events with our comprehensive management platform</p>

@@ -1,18 +1,20 @@
 import React from "react";
 import './Nav.css'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Nav(){
-    return(
-        <>
+const navigate = useNavigate();
+
+return(
+<>
 
 <div className="nav">
-<div className="nav-left">
+<div className="nav-left" onClick={()=>navigate('/')}>
     <img src="/photos/mits_logo.png" alt=""/> 
     <strong>CEMS</strong>
 </div>
 <div className="nav-right">
-    <Link to='/'><p>Home1</p></Link>
+    <Link to='/'><p>Home</p></Link>
     <Link to='/event'><p>Events</p></Link>
     <Link to='/about'><p>About</p></Link>
     <Link to='/contact'><p>Contact</p></Link>

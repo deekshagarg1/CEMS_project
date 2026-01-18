@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* p{
+    color: red;
+} */
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    padding: 5px;
+
+}
+
+.nav-left img{
+    height: 70px;
+    width:80px ;
+}
+.nav-right{
+       display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+
+}

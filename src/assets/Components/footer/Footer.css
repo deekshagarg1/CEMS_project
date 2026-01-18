@@ -1,0 +1,123 @@
+.footer-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: auto;
+/* border: 1px solid red; */
+border-top: 1px solid rgb(193, 191, 191);
+height: 285px;
+font-family: Arial, Helvetica, sans-serif;
+/* background-color: #37475a; */
+/* background-color: #222f3d; */
+position: fixed;
+bottom: 0px;
+box-shadow: 0.5px 0px 4px rgb(194, 194, 194);
+}
+
+.footer-top{
+ display: flex;
+/* flex-direction: column; */
+/* align-items: center; */
+justify-content: center;
+width: 80%;
+height: auto;
+/* border: 1px solid rgb(13, 126, 109); */
+height: 230px;
+
+}
+
+.footer-top-right{
+ display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+width: 30%;
+height: auto;
+/* border: 1px solid rgb(2, 31, 27); */
+height: 160px;
+
+}
+
+.f-logo{
+     display: flex;
+/* flex-direction: column; */
+align-items: center;
+justify-content: center;
+width: 50%;
+}
+
+.f-logo img{
+    width: 60px;
+    height: 60px;
+        cursor: pointer;
+}
+
+.footer-top-right p{
+    color: gray;
+    width: 80%;
+    margin-left: 20px;
+    font-size: 0.9rem;
+     
+}
+
+.footer-top-right p:hover{
+    color: black;
+   cursor: pointer;
+}
+
+.footer-top-left{
+ display: flex;
+/* flex-direction: column; */
+align-items: center;
+justify-content: space-evenly;
+width: 70%;
+height: auto;
+/* border: 1px solid rgb(2, 31, 27); */
+height: 230px;
+
+}
+
+.f-l{
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: space-evenly;
+width: 29%;
+color: rgb(62, 62, 62);
+/* border: 1px solid rgb(2, 31, 27); */
+height: 180px;
+font-size: 0.9rem;
+}
+
+.f-l strong{
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 1.1rem;
+color: black;
+    cursor: pointer;
+
+}
+
+.f-l p:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-bottom{
+ display: flex;
+/* flex-direction: column; */
+align-items: center;
+justify-content: center;
+margin-bottom: 0px;
+width: 100%;
+height: auto;
+border-top: 1px solid rgb(201, 202, 202);
+height: 50px;
+font-size: 0.9rem;
+color: rgb(61, 60, 60);
+box-shadow: 0.5px 0px 4px rgb(194, 194, 194);
+    cursor: pointer;
+}

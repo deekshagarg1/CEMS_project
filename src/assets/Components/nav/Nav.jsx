@@ -8,7 +8,7 @@ function Nav(){
 
 <div className="nav">
 <div className="nav-left">
-    <img src="./src\assets\Components\nav\mits_logo.png" alt=""/> 
+    <img src="./public\photos\mits_logo.png" alt=""/> 
     <strong>CEMS</strong>
 </div>
 <div className="nav-right">
